@@ -1,4 +1,4 @@
-<h2><center>RPBannerView</center><h2>
+<h2><center>RPBannerView</center></h2>
 
 * iOS 9.0+
 
