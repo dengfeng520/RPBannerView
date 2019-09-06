@@ -1,6 +1,4 @@
-<h1><center>RPBannerView</center><h1>
-
---
+<h2><center>RPBannerView</center><h2>
 
 * iOS 9.0+
 
@@ -10,6 +8,7 @@
 
 * license MIT
 
+
 <h2>Adding RPBannerView to your project</h2>
 
 **CocoaPods is the recommended way to add RPBannerView to your project.**
@@ -18,7 +17,6 @@
 
 ```
 pod 'RPBannerView'
-
 ```
 or
 
