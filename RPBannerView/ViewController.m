@@ -26,11 +26,11 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     self.randomNum ++;
     if (self.randomNum % 2 == 0) {
-        [RPBannerView showWithMode:warningMode body:@"testetstettesttest" isView:self.view];
+        [RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again." isView:self.view];
     } else if (self.randomNum % 3 == 0) {
-        [RPBannerView showWithMode:perfectionMode body:@"testetstettesttest" isView:self.view];
+        [RPBannerView showWithMode:perfectionMode body:@"Read data completion." isView:self.view];
     } else {
-        [RPBannerView showWithMode:successMode body:@"testetstettesttest" isView:self.view];
+        [RPBannerView showWithMode:successMode body:@"Load all data successfully." isView:self.view];
     }
 }
 

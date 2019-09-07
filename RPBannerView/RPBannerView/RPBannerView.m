@@ -106,7 +106,7 @@
         [[self.contextLab.widthAnchor constraintGreaterThanOrEqualToConstant:100] setActive:true];
         [[self.contextLab.widthAnchor constraintLessThanOrEqualToAnchor:rootView.widthAnchor constant:1] setActive:true];
         self.contextLab.numberOfLines = 1;
-        self.contextLab.font = [UIFont fontWithName:@"PingFangSC-Semibold" size:12];
+        self.contextLab.font = [UIFont fontWithName:@"PingFangSC-Semibold" size:13];
         self.contextLab.textColor = UIColor.whiteColor;
         self.contextLab.textAlignment = NSTextAlignmentCenter;
         
