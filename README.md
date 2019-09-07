@@ -8,6 +8,9 @@
 
 * license MIT
 
+![demo1](https://github.com/dengfeng520/RPBannerView/blob/master/demo1.png?raw=true)
+![demo2](https://github.com/dengfeng520/RPBannerView/blob/master/demo2.png?raw=true)
+![demo3](https://github.com/dengfeng520/RPBannerView/blob/master/demo3.png?raw=true)
 
 <h2>Adding RPBannerView to your project</h2>
 
@@ -28,4 +31,30 @@ pod 'RPBannerView', :git => 'https://github.com/dengfeng520/RPBannerView'
 
 ```
 pod install
+```
+<h2>Usage</h2>
+
+```
+#import "RPBannerView.h"
+```
+
+> warningMode
+
+```
+[RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again."];
+```
+**If you need to add RPBannerView to the current View and display for 2 seconds:**
+
+```
+[RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again." isView:self.view isTime:2.5];
+```
+> perfectionMode
+
+```
+[RPBannerView showWithMode:perfectionMode body:@"Read data completion." isView:self.view];
+```
+>successMode
+
+```
+[RPBannerView showWithMode:successMode body:@"Load all data successfully." isView:self.view];
 ```

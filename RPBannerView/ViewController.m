@@ -26,7 +26,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     self.randomNum ++;
     if (self.randomNum % 2 == 0) {
-        [RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again." isView:self.view];
+        [RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again." isView:self.view isTime:2.5];
     } else if (self.randomNum % 3 == 0) {
         [RPBannerView showWithMode:perfectionMode body:@"Read data completion." isView:self.view];
     } else {
