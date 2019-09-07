@@ -8,8 +8,8 @@
 
 * license MIT
 
-![demo1](https://github.com/dengfeng520/RPBannerView/blob/master/demo1.png?raw=true)
-![demo2](https://github.com/dengfeng520/RPBannerView/blob/master/demo2.png?raw=true)
+![demo1](https://github.com/dengfeng520/RPBannerView/blob/master/demo2.png?raw=true)
+![demo2](https://github.com/dengfeng520/RPBannerView/blob/master/demo1.png?raw=true)
 ![demo3](https://github.com/dengfeng520/RPBannerView/blob/master/demo3.png?raw=true)
 
 <h2>Adding RPBannerView to your project</h2>
