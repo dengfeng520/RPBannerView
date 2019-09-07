@@ -46,7 +46,7 @@ pod install
 **If you need to add RPBannerView to the current View and display for 2 seconds:**
 
 ```
-[RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again." isView:self.view isTime:2.5];
+[RPBannerView showWithMode:warningMode body:@"Something went wrong,please try again." isView:self.view isTime:2];
 ```
 > perfectionMode
 
