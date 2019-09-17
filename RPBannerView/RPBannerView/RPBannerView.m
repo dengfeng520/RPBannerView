@@ -137,9 +137,9 @@
     NSEnumerator *subviewsEnum = [view.subviews reverseObjectEnumerator];
     for (UIView *subview in subviewsEnum) {
         if ([subview isKindOfClass:self]) {
-            RPBannerView *hud = (RPBannerView *)subview;
-            if (hud.hasFinished == true) {
-                return hud;
+            RPBannerView *banner = (RPBannerView *)subview;
+            if (banner.hasFinished == true) {
+                return banner;
             }
         }
     }
