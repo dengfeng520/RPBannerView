@@ -102,6 +102,7 @@
         self.contextLab.translatesAutoresizingMaskIntoConstraints = false;
         [[self.contextLab.leftAnchor constraintEqualToAnchor:rootView.leftAnchor constant:15] setActive:true];
         [[self.contextLab.rightAnchor constraintEqualToAnchor:rootView.rightAnchor constant:-15] setActive:true];
+        [[self.contextLab.centerYAnchor constraintEqualToAnchor:rootView.centerYAnchor constant:0] setActive:true];
         [[self.contextLab.heightAnchor constraintEqualToConstant:26] setActive:true];
         [[self.contextLab.widthAnchor constraintGreaterThanOrEqualToConstant:100] setActive:true];
         [[self.contextLab.widthAnchor constraintLessThanOrEqualToAnchor:rootView.widthAnchor constant:1] setActive:true];
